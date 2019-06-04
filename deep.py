@@ -20,7 +20,7 @@ import torch.multiprocessing as mp
 
 
 tranformadaTraining = transforms.Compose([
-    transforms.Resize((256,256)),
+    transforms.Resize((128,128)),
     transforms.ToTensor(),
     transforms.Normalize((0.5,0.5,0.5),(0.5,0.5,0.5))
 ])
